@@ -25,12 +25,17 @@
           <img src="images/search.png" alt="" />
           <input type="text" placeholder="search" />
         </div>
-        <div class="user-user-icon online">
+        <div class="user-user-icon online"  onclick="settingsMenuToggle()">
           <img src="images/profile-pic.png" alt="" />
         </div>
       </div>
       <!----------------settings-menu----------------------->
       <div class="settings-menu">
+
+        <div id="dark-btn" >
+          <span></span>
+        </div>
+
         <div class="setting-menu-inner">
           <div class="user-profile">
             <img src="images/profile-pic.png" alt="" />
@@ -363,5 +368,7 @@
     <div class="footer">
       <p>copyright 2021 - Kassim tutorial youtube channel</p>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
